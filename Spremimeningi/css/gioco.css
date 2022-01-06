@@ -1,0 +1,55 @@
+
+#partizione1{
+    width: 23%;
+    align-content: center;
+}
+#partizione2{
+    width: 43%;
+    align-content: center;
+}
+#partizione3{
+    width: 33%;
+    align-content: center;
+}
+
+#container{
+    display: flex;
+}
+
+.stat{
+    padding-left: 5%;
+    padding-top: 10%;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#gioca{
+    border: 1.5px solid black;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 19px;
+    margin-top:5px;
+    margin-bottom: 100px;
+}
+
+#scegli{
+    text-decoration: underline;
+    margin-top:20px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#tab_score{
+    margin-left: 20%;
+}
+
+table,td,th{
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+caption{
+    margin-bottom: 25px;
+    font-weight: bold;
+}

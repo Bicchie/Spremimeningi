@@ -1,0 +1,51 @@
+#form_login{
+    position: relative;
+    text-align: center;
+    display: block;
+} 
+#form_login input{
+    display: block;
+    width: 50%;
+    height: 30px;
+    position: relative;
+    left:25%;
+    font-size: 18px;
+}
+
+#form_login label{
+    font-size: 25px;
+}
+
+#form_login button{
+    border: 1.5px solid black;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 19px;
+    margin-top:5px;
+}
+
+#login{
+    position: relative;
+    background-color: white;
+    font-family:"Georgia";
+    font-size: 22px;
+    border-radius: 15px 15px 15px 15px;
+    border: solid black 2px;
+    left:23%;
+	top: 20px;
+	width: 40%;
+    height: 75%;
+    text-align: center;
+  }
+
+#login p{
+    font-size: 15px;
+}
+
+#registrazione{
+    margin-left: 0%;
+}
+
+#error{
+    color: #D8000C;
+    background-color: #FFD2D2;
+}

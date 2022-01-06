@@ -1,0 +1,35 @@
+#playground {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 24%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  background-size: cover; 
+  border: 5px solid black;
+}
+.box {
+  margin: 8px;
+  border: 2px solid black;
+  width: 60px;
+  height: 60px;
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 29px;
+  background-clip:padding-box;
+  font-family: cursive;
+  font-weight: 700;
+  line-height: 1.4;
+  border-radius: 15px 15px 15px 15px;
+  opacity: 0.85;
+}
+
+#last {
+  color:transparent;
+  margin: 9px;
+  border: 1px;
+  width: 60px;
+  height: 60px;
+}

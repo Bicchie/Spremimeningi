@@ -1,0 +1,20 @@
+.alignleft {
+    float: left;
+    padding: 15px 15px 15px 15px;
+}
+
+.alignright {
+    float: right;
+    padding: 15px 15px 15px 15px; 
+}
+
+.testo{
+    padding-left:25px;
+    padding-right: 25px;
+}
+
+.regole{
+    width: 60%;
+    margin-left:20%;
+    padding-bottom: 5%;;
+}

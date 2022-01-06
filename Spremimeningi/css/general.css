@@ -1,0 +1,135 @@
+body{
+  background-image: url("../img/0.jpg");
+  width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0;
+}
+
+
+header{
+  background-color: white;
+  font-family:"Georgia";
+  font-size: 62px;
+  border-radius: 15px 15px 15px 15px;
+  border: solid black 4px;
+  margin-left: 29%;
+  margin-right: 29%;
+  margin-top: 2%;
+  text-align: center;
+}
+
+section{
+  background-color: white;
+  font-family:"Georgia";
+  font-size: 22px;
+  border-radius: 15px 15px 15px 15px;
+  border: solid black 2px;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 2%;
+}
+
+h3{
+  font-size:32px;
+  text-align: center;
+  margin-top:5px;
+}
+
+#manuale{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 10%;
+}
+
+.gameimg{
+  width:15%;
+  height: 15%;
+  margin-left: 4%;
+  margin-bottom: 3%;
+}
+
+.paragrafo{  
+  margin-left: 4%;
+  margin-bottom: 3%;
+  margin-right: 4%;
+  font-size:22px;
+  width: 425px;
+  height: 150px;
+}
+
+.box{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+section div a{
+  margin-left:5%;
+}
+
+section div a img{
+  width: 60px;
+  height: 60px;
+}
+
+.box div{
+  font-size:15px;
+  text-align: center;
+}
+
+nav {
+  overflow: hidden;
+  background-color: #333;
+  margin-top: 2%;
+}
+  
+nav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 21.5px;
+}
+  
+#salutiUtente{
+  float:left;
+}
+#salutiUtente:hover{
+  background-color: #333;
+  color: #f2f2f2;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+  
+nav a.active {
+  color: white;
+}
+
+
+#pie_pagina {
+	background-color: #212121;
+	width: 100%;
+	height: 40px;
+	text-align:center;
+	opacity: 0.75;
+	color: white;
+	font-size: 14px;
+	position: fixed;
+	bottom: 0;
+}
+
+#mail{
+  color: white;
+  font-size:14px;
+}
+
+option{
+  font-size:20px;
+}

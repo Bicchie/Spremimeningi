@@ -1,0 +1,48 @@
+#playground{
+    margin-top: 5%;
+    margin-bottom: 20%;
+    margin-left: 23%;
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.parentCube{
+    height: 129.33px;
+    width: 129.33px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*  GIUSTIFICAZIONE WARNING:
+    la tabella del Sudoku non veniva uniforme nei 2 browser quindi
+    ho dovuto mettere del CSS ad hoc per ognuno
+*/
+
+/* css per google chrome */
+@media screen and (-webkit-min-device-pixel-ratio:0){
+    .childCube{
+        height: 40px;
+        width: 32.1px;
+        font-size: 29px;
+        border: 0.5px solid black;
+        padding-left: 10px;
+    }
+  }
+  
+/* css per firefox */
+@-moz-document url-prefix() {
+    .childCube{
+        height: 30%;
+        width: 23.2%;
+        font-size: 29px;
+        border: 1px solid black;
+        padding-left: 10px;
+    }
+  }
+
+
+

@@ -1,0 +1,42 @@
+.alignleft {
+    float: left;
+    padding: 15px 15px 15px 15px;
+}
+
+.alignright {
+    float: right;
+    padding: 15px 15px 15px 15px; 
+}
+
+.info{
+    margin-left: 30%;
+}
+
+em{
+    font-weight: bold;
+}
+
+section img{
+    width: 80px;
+    height: 80px;
+}
+
+.partizione{
+    width: 32%;
+    margin-left:0.6%;
+    margin-right:0.6%;
+    margin-bottom: 3%;
+}
+
+.partizione li{
+    font-size: 20px;
+}
+
+h6{
+    text-align: center;
+    font-size: 25px;
+}
+
+.container{
+    display: flex;
+}
