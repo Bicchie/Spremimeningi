@@ -1,5 +1,5 @@
 # Spremimeningi
-This project is developed for the university course of "Progettazione Web" (Web Design).
+This project was developed for the university course of "Progettazione Web" (Web Design).
 
 It is a web page that contains 3 plays: Sudoku, Play of 15 and Tower of Hanoi.
 
